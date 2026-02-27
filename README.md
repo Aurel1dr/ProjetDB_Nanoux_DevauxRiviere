@@ -108,5 +108,6 @@ Grand maître Augustin 👑, voici le résultat attendu de l’IAG.
 
 
 # Photo de notre MCD
-<img width="1466" height="840" alt="image" src="https://github.com/user-attachments/assets/5606e167-0a73-4c6a-8448-8c5960816a2f" />
+<img width="1427" height="821" alt="image" src="https://github.com/user-attachments/assets/38c3a6ca-99cc-4eb1-a33b-ed4a148a9b46" />
+
 
