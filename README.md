@@ -44,7 +44,7 @@ Fournis donc les règles de gestion et le dictionnaire de données.
 
 ---
 
-## Réponse Chatgpt
+## Réponse de L'IAG
 
 Grand maître Augustin 👑, voici le résultat attendu de l’IAG.
 
@@ -106,5 +106,7 @@ Grand maître Augustin 👑, voici le résultat attendu de l’IAG.
 
 
 
+
+# Photo de notre MCD
 <img width="1466" height="840" alt="image" src="https://github.com/user-attachments/assets/5606e167-0a73-4c6a-8448-8c5960816a2f" />
 
