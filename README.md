@@ -120,3 +120,29 @@ Poste = (id_poste VARCHAR(50), libellé VARCHAR(50));
 Disputer = (#id_joueur, #id_match, role VARCHAR(50), résultat VARCHAR(50));
 Affronter = (#id_joueur, #id_joueur_1);
 Arbitrer = (#id_match, #id_arbitre, #id_poste);
+
+## MLD
+
+Tournoi = (id_tournoi INT, nom_tournoi VARCHAR(50), ville VARCHAR(50), pays VARCHAR(50), surface VARCHAR(20))
+
+Edition = (#id_tournoi, id_edition INT, annee INT, date_debut DATE, date_fin DATE)
+
+Joueur = (id_joueur INT, nom_joueur VARCHAR(50), prenom_joueur VARCHAR(50), nationalite_joueur VARCHAR(30), date_naissance DATE, classement INT, nombre_titres INT, victoires INT)
+
+Match_ = (id_match INT, tour VARCHAR(30), duree INT, score_global VARCHAR(20), nombre_sets INT, #id_tournoi, #id_edition)
+
+Set_ = (id_set INT, #id_match, numero_set INT, jeux_j1 INT, jeux_j2 INT)
+
+Arbitre = (id_arbitre INT, nom_arbitre VARCHAR(50), prenom_arbitre VARCHAR(50), nationalite_arbitre VARCHAR(30), niveau_certification VARCHAR(20))
+
+Poste = (id_poste INT, libelle VARCHAR(50))
+
+Disputer = (#id_joueur, #id_match, role VARCHAR(10), resultat VARCHAR(10))
+
+Affronter = (#id_joueur, #id_joueur_1)
+
+Arbitrer = (#id_match, #id_arbitre, #id_poste)
+
+## Scénario d'utilisation
+
+Un analyste statistique de l'ATP utilise cette base de données pour préparer un rapport annuel sur les performances des joueurs dans les tournois du Grand Chelem. Il cherche à identifier les joueurs les plus performants par surface, analyser les statistiques des matchs, suivre l'activité des arbitres, et dégager des tendances sur les éditions récentes.
