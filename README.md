@@ -120,6 +120,7 @@ Poste = (id_poste VARCHAR(50), libellé VARCHAR(50));
 Disputer = (#id_joueur, #id_match, role VARCHAR(50), résultat VARCHAR(50));
 Affronter = (#id_joueur, #id_joueur_1);
 Arbitrer = (#id_match, #id_arbitre, #id_poste);
+```
 
 ## MLD
 
